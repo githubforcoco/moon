@@ -1,0 +1,25 @@
+<!--pages/category/category.wxml-->
+<view class='container'>
+  <view class='page-body'>
+    <scroll-view scroll-y="true" height="100%">
+      <view class='con'>
+          <view class='left'>
+            <block wx:for="{{categories1}}">
+             <!--跳转列表-->
+             <navigator url='{{item.name}}'>
+                <view class='item item1'>
+                  <!--目录标题-->
+                  <text class='board-title'>{{item.name}}</text>
+                  <!--箭头图片-->
+                  <image class="board-img" src="/images/arrowright.png" mode="aspectFill"/>
+                </view>
+              </navigator>
+             
+            </block>
+          </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+<view  class="last_line"></view>
+ 

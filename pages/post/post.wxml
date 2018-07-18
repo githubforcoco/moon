@@ -1,0 +1,23 @@
+<import src="post-item/post-item-tpl.wxml" />
+<view>
+<swiper catchtap="onSwiperTap" vertical="{{false}}" indicator-dots="true" autoplay="true" interval="5000" circular="true">
+<swiper-item>
+<text>BlackFly is latest attempt at flying car</text>
+<image src="/images/post/post3.jpg" data-post-id='3' />
+</swiper-item>
+<swiper-item>
+<text>Virtual reality cured my fear of heights</text>
+<image src="/images/post/post4.jpg" data-post-id='4' />
+</swiper-item>
+<swiper-item>
+<text>Emmys 2018: Game of Thrones leads with 22 nominations</text>
+<image src="/images/post/post5.jpg" data-post-id='5' />
+</swiper-item>
+</swiper>
+
+<block wx:for="{{postList}}" wx:for-item="item" wx:for-index="idx">
+<view catchtap="onTapToDetail" data-post-id="{{item.postId}}">
+<template is="postItemTpl" data="{{...item}}" />
+</view>
+</block>
+</view>

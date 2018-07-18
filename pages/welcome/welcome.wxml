@@ -1,0 +1,9 @@
+<view class="container">
+    <image class="avatar" src="/images/avatar/avatar-4.png"></image>
+    <text class="motto"> 牧闻英语 </text>
+    <text class="motto"> Your Daily Dose of English News</text>
+    <text class="motto2"> 【提示】文章页面有查单词按钮喔~</text>
+    <view catchtap="onTapJump" class="journey-container" open-type="getUserInfo">
+        <text class="journey">点击开启</text>
+    </view>
+</view>

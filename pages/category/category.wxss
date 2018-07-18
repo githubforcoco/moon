@@ -1,0 +1,46 @@
+/* pages/category/category.wxss */
+.con{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+ .left{
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid #eaeaea;
+} 
+.right{
+  border-top: 1px solid #eaeaea;
+}  
+.item{
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx 0;
+  color:#40a851;
+  border-bottom: 1px solid #eaeaea;
+}
+ .item1{
+  padding-right: 20rpx;
+  padding-left: 20rpx;
+  border-right: 1px solid #eaeaea;
+} 
+.item2{
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.board-title{
+  flex: 1;
+  font-size:40rpx;
+  font-family:'Times New Roman', Times, serif;
+}
+.board-img{
+  width: 40rpx;
+  height: 40rpx;
+}
+.last_line{
+  width: 100%;
+  height: 300px;
+  background-image: url('https://upload-images.jianshu.io/upload_images/4179819-4c247b1477685278.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/700');
+  background-repeat: round;
+}

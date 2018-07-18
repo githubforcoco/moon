@@ -1,0 +1,21 @@
+<view class="container">
+<text class="title">{{post.title}}</text>
+<view class="author-date">
+<view class="author-box">
+<image class="avatar" src="{{post.avatar}}"></image>
+<text class="author">{{post.author}}</text>
+</view>
+<text class="date">{{post.date}}</text>
+</view>
+<view style="height:16px;"></view>
+<image class="head-image" src="{{isPlayingMusic?post.music.coverImg:post.postImg}}"></image>
+<text class="detail" selectable='true' >{{post.detail}}</text>
+</view>
+
+
+<view class="tool">
+
+<icon type="search" size="35" class="post" bindtap="onSearchTap"/>
+<text class="post" ></text>
+
+</view>

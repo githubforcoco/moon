@@ -1,0 +1,76 @@
+.page{
+    background-image:url('http://mi0.mmmono.com/57146500bf0b1521dde9263be7044ae7.jpg');
+    height: 1200rpx;
+    width: 100%;
+    background-size: cover;
+}
+.input_counter{
+  position: fixed;
+  left: 7%;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50rpx;
+  width:86% ;
+  height: 90rpx;
+  border: 1rpx solid #4a475b;
+  align-items: center;
+  background-color: white;
+  opacity: 0.78;
+}
+.input{
+  width:85% ;
+  height: 78rpx;
+  color: black;
+  margin-top: 5rpx;
+}
+.simple_look{
+  position: fixed;
+  left: 10%;
+  top: 15%;
+  display: flex;
+  flex-direction: column;
+  width:78% ;
+  border: 1rpx solid #4a475b;
+  background-color: white;
+  opacity: 0.78;
+  padding:10px; 
+}
+.read{
+  position: fixed;
+  right: 28%;
+  top: 17%;
+  display: flex;
+  flex-direction: column;
+  width:60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 1;
+}
+.sc{
+  position: fixed;
+  right: 8%;
+  top: 17%;
+  display: flex;
+  flex-direction: column;
+  width:55rpx;
+  height: 55rpx;
+  background-color: white;
+  opacity: 0.78;
+}
+.sc2{
+  position: fixed;
+  left:74.5%;
+  top: 17%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  opacity: 0.78;
+}
+.sc2 image{
+  
+  height: 55rpx;
+  width:55rpx;
+  margin-right: 10rpx;
+}

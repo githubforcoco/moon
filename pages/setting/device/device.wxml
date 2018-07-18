@@ -1,0 +1,15 @@
+<template name="collect">
+   <view class="simple_look">
+   <!--读音-->
+   <image bindtap="read" id="{{item[2]}}" style="width: 25px; padding-right:5px;height: 25px; background-color: #fff;" mode="scaleToFill" src="/images/yuying.png"></image>
+   {{item[0]}}<view style="color:#c7b31d">　/{{item[1]}}/</view></view>
+   <view class="definition">{{item[4]}}</view>
+</template>
+
+<view class="pages">
+    <block wx:for="{{collect_list}}">
+         <template is="collect" data="{{item}}"/>
+    </block>
+</view>
+<!--页面底部插图-->
+<view  class="last_line"></view>
