@@ -1,0 +1,53 @@
+{
+    "pages": [
+        "pages/welcome/welcome",
+        "pages/post/post",
+        "pages/post/post-detail/post-detail",
+        "pages/post/post-search/post-search",
+        "pages/category/category",
+        "pages/category/sport",
+        "pages/category/food",
+        "pages/category/music",
+        "pages/category/culture",
+        "pages/category/nature",
+        "pages/setting/setting",
+        "pages/setting/device/device"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#8BAC9B",
+        "backgroundColor": "#8BAC9B"
+    },
+    "tabBar": {
+        "borderStyle": "white",
+        "selectedColor": "#4A6141",
+        "color": "#333",
+        "backgroundColor": "#fff",
+        "position": "bottom",
+        "list": [
+            {
+                "pagePath": "pages/post/post",
+                "text": "NEWS",
+                "iconPath": "images/home3.png",
+                "selectedIconPath": "images/icon/home3.png"
+            },
+            {
+                "pagePath": "pages/category/category",
+                "text": "CATEGORY",
+                "iconPath": "images/nav.png",
+               "selectedIconPath": "images/icon/nav.png"
+            },
+            {
+                "pagePath": "pages/setting/setting",
+                "text": "SETTINGS",
+                "iconPath": "images/settings.png",
+                "selectedIconPath": "images/icon/settings.png"
+            }
+        ]
+    },
+    "networkTimeout": {
+        "request": 20000,
+        "connectSocket": 20000,
+        "uploadFile": 20000,
+        "downloadFile": 20000
+    }
+}
